@@ -5,17 +5,17 @@ Cleaning and preprocessing of the UCI Online Retail dataset (transactions from a
 
 ## Dataset
 Source: https://archive.ics.uci.edu/dataset/352/online+retail
-Raw size: <ROWS> rows × 8 columns
+Raw size: 541,909 rows × 8 columns
 
 ## What was done
 - Explored structure, types and summary statistics
-- Removed <N> duplicate rows
+- Removed 5,268 duplicate rows
 - Handled missing Description (dropped) and CustomerID (labelled "Unknown")
 - Removed cancellations and invalid quantities/prices
 - Converted data types, engineered TotalPrice, Month, Hour
 - Capped outliers using the IQR method
 - Applied Min-Max normalization and standardization
-Final dataset: <ROWS> rows × <COLS> columns
+Final dataset: 524878 rows × 17 columns
 
 ## Project structure
 data/raw/       original dataset
